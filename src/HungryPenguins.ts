@@ -25,7 +25,7 @@ const teachToFish = (penguinsArrayOfObjects: object[]): object[] => {
 //    ]
 //
 //  run:
-//    npm test HungryPenguins.test.ts
+//    npx jest HungryPenguins.test.ts
 //
 //      or, if you added the 'test' script to your package.json:
 //
