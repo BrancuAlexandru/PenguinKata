@@ -1,6 +1,9 @@
 # PenguinKata
-This is a repo with penguin themed coding challenges with TypeScript.
+This is a repo with penguin themed coding challenges.
 
+## Technologies
+ - TypeScript
+ - Jest
 
 ## To run:
 Type `npm install` in the terminal.
