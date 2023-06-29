@@ -12,7 +12,7 @@ Type `npm install` in the terminal.
 ### Test your answers:
 Type `npx jest FileName.test.ts`
 
-### OR
+#### OR
 
 Put this in your package.json file:
 
