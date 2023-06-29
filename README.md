@@ -5,14 +5,14 @@ This is a repo with penguin themed coding challenges.
  - TypeScript
  - Jest
 
-## To run:
+### Installation:
 Type `npm install` in the terminal.
 
 
-## To test your answers:
+### Test your answers:
 Type `npx jest FileName.test.ts`
 
-## OR
+### OR
 
 Put this in your package.json file:
 
