@@ -1,4 +1,4 @@
-const boatBuilder = (penguinsArray: number[][]): string[] => {
+const boatBuilder = (orderArrayOfArraysOfNumberPairs: number[][]): string[] => {
 
 }
 
