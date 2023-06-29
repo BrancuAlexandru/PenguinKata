@@ -9,6 +9,7 @@ const warmPenguinsUp = (penguinsArray: string[]): string[][] => {
 //  so that they can warm up. If there's less than 3
 //  penguins left in the input at any point, they should be
 //  put in the last array of penguins to huddle together.
+//  The input will never have 0 penguins or less.
 //
 //  input example: ['Penguin1', 'Penguin2', 'Penguin3', 'Penguin4', 'Penguin5', 'Penguin6', 'Penguin7']
 //

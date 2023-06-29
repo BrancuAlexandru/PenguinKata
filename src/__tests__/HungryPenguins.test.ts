@@ -1,7 +1,7 @@
 import {describe, expect, test} from '@jest/globals';
 import teachToFish from '../HungryPenguins';
 
-describe('The penguins are hungry, so they bought fishing rods.\n But they don\'t know how to use them. Give the array of penguin\n objects a fishing method that will console.log(\'<[][]<\');', () => {
+describe('The penguins are hungry, so they bought fishing rods.\n But they don\'t know how to use them. Give the array of penguin\n objects a fishing method that will console.log(\'<[][]<\'); Input is never 0 or less penguins.', () => {
   test('Testing 1 penguin.', () => {
     expect(JSON.stringify(teachToFish(
       [
@@ -17,7 +17,7 @@ describe('The penguins are hungry, so they bought fishing rods.\n But they don\'
   });
 });
 
-describe('The penguins are hungry, so they bought fishing rods.\n But they don\'t know how to use them. Give the array of penguin\n objects a fishing method that will console.log(\'<[][]<\');', () => {
+describe('The penguins are hungry, so they bought fishing rods.\n But they don\'t know how to use them. Give the array of penguin\n objects a fishing method that will console.log(\'<[][]<\'); Input is never 0 or less penguins.', () => {
   test('Testing 6 penguins.', () => {
     expect(JSON.stringify(teachToFish(
       [

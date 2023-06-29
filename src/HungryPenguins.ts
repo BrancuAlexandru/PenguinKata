@@ -8,6 +8,7 @@ const teachToFish = (penguinsArrayOfObjects: object[]): object[] => {
 //  fishing rod. Teach the array of penguin objects
 //  how to fish, by giving them a fishing method
 //  that will console.log('<[][]<');
+//  The input will never have 0 penguins or less.
 //
 //  input example: [{ creature: 'Penguin1' }]
 //
