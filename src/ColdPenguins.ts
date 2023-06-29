@@ -1,4 +1,4 @@
-const WarmPenguinsUp = (penguinsArray: string[]): string[][] => {
+const warmPenguinsUp = (penguinsArray: string[]): string[][] => {
 
 }
 
@@ -19,4 +19,4 @@ const WarmPenguinsUp = (penguinsArray: string[]): string[][] => {
 //   npm test ColdPenguins.test.ts
 // to test if you passed
 
-export default WarmPenguinsUp;
+export default warmPenguinsUp;

@@ -1,9 +1,9 @@
 import {describe, expect, test} from '@jest/globals';
-import WarmPenguinsUp from '../ColdPenguins';
+import warmPenguinsUp from '../ColdPenguins';
 
 describe('The penguins should be grouped in arrays of length 3\n to stay warm, and any extra (not enough to form an array of 3)\n should be put in the last array.', () => {
   test('Checking 6 penguin array.', () => {
-    expect(WarmPenguinsUp(
+    expect(warmPenguinsUp(
       ['Penguin1', 
       'Penguin2', 
       'Penguin3',
@@ -19,7 +19,7 @@ describe('The penguins should be grouped in arrays of length 3\n to stay warm, a
 
 describe('The penguins should be grouped in arrays of length 3\n to stay warm, and any extra (not enough to form an array of 3)\n should be put in the last array.', () => {
   test('Checking 7 penguin array.', () => {
-    expect(WarmPenguinsUp(
+    expect(warmPenguinsUp(
       ['Penguin1', 
       'Penguin2', 
       'Penguin3',
@@ -36,7 +36,7 @@ describe('The penguins should be grouped in arrays of length 3\n to stay warm, a
 
 describe('The penguins should be grouped in arrays of length 3\n to stay warm, and any extra (not enough to form an array of 3)\n should be put in the last array.', () => {
   test('Checking 2 penguin array.', () => {
-    expect(WarmPenguinsUp(
+    expect(warmPenguinsUp(
       ['Penguin1', 'Penguin2']
       )).toStrictEqual(
       [['Penguin1', 'Penguin2']]
