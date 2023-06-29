@@ -10,12 +10,16 @@ const teachToFish = (penguinsArrayOfObjects: object[]): object[] => {
 //  that will console.log('<[][]<');
 //  The input will never have 0 penguins or less.
 //
-//  input example: [{ creature: 'Penguin1' }]
+//  input example: [{ creature: 'Penguin1' }, { creature: 'Penguin2' }]
 //
 //  desired output: 
 //    [
 //      {
 //        creature: 'Penguin1',
+//        fishing: () => {console.log('<[][]<')}
+//      },
+//      {
+//        creature: 'Penguin2',
 //        fishing: () => {console.log('<[][]<')}
 //      }
 //    ]
