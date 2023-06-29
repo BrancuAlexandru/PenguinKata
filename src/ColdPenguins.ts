@@ -10,13 +10,17 @@ const warmPenguinsUp = (penguinsArray: string[]): string[][] => {
 //  penguins left in the input at any point, they should be
 //  put in the last array of penguins to huddle together.
 //
-//
 //  input example: ['Penguin1', 'Penguin2', 'Penguin3', 'Penguin4', 'Penguin5', 'Penguin6', 'Penguin7']
 //
 //  desired output: [['Penguin1', 'Penguin2', 'Penguin3'], ['Penguin4', 'Penguin5', 'Penguin6', 'Penguin7']]
 //
-// run:
-//   npm test ColdPenguins.test.ts
-// to test if you passed
+//  run:
+//    npx jest ColdPenguins.test.ts
+//
+//      or, if you added the 'test' script to your package.json
+//
+//    npm test ColdPenguins.test.ts
+//
+//  to test if you passed
 
 export default warmPenguinsUp;

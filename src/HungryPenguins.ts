@@ -9,7 +9,6 @@ const teachToFish = (penguinsArrayOfObjects: object[]): object[] => {
 //  how to fish, by giving them a fishing method
 //  that will console.log('<[][]<');
 //
-//
 //  input example: [{ creature: 'Penguin1' }]
 //
 //  desired output: 
@@ -20,8 +19,13 @@ const teachToFish = (penguinsArrayOfObjects: object[]): object[] => {
 //      }
 //    ]
 //
-// run:
-//   npm test HungryPenguins.test.ts
-// to test if you passed
+//  run:
+//    npm test HungryPenguins.test.ts
+//
+//      or, if you added the 'test' script to your package.json:
+//
+//    npm test HungryPenguins.test.ts
+//
+//  to test if you passed
 
 export default teachToFish;
