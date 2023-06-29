@@ -13,8 +13,8 @@ Type `npx jest FileName.test.ts`
 
 Put this in your package.json file:
 
-`"scripts": {\n
-  "test": "jest"\n
+`"scripts": {
+  "test": "jest"
 }`
 
 And use `npm test FileName.test.ts`
